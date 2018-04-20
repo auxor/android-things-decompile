@@ -1,0 +1,15 @@
+package com.google.android.things.lowpan;
+
+public class JoinFailedAtScanException extends JoinFailedException {
+    public JoinFailedAtScanException(String message) {
+        super(message);
+    }
+
+    public JoinFailedAtScanException(String message, Throwable cause) {
+        super(message, cause);
+    }
+
+    public JoinFailedAtScanException(Exception cause) {
+        super(cause);
+    }
+}
